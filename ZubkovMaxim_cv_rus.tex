@@ -22,12 +22,10 @@
 
 
 \documentclass{resume} % Use the custom resume.cls style
-
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[english,russian]{babel}
 \usepackage{xcolor}
-
 \usepackage{hyperref}
 % Цвета для гиперссылок
 \definecolor{linkcolor}{HTML}{799B03} % цвет ссылок
@@ -65,10 +63,11 @@
 \begin{rSection}{Знания и Умения}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Языки программирования &  C/C++ (4/5), Python (4/5),  SQL  (4/5) \\
-Frameworks & Numpy (3/5), Matplotlib (3/5), Pandas (3/5), SciPy (3/5), \\ 
-					& Requests (3/5), BeautifulSoup (2/5), Asyncio (3/5), STL (3/5) \\
-					& PyQt (1/5), Flask (1/5)\\
+Языки программирования &  C/C++ (4/5), Python (4/5),  SQL  (4/5),  \\																				   &JavaSricpt, CSS, HTML (3/5) \\
+Frameworks & Numpy (4/5), Matplotlib (3/5), Pandas (5/5), SciPy (3/5), \\ 
+					& NLTK(2/5), Gensim(3/5), FastText(2/5), SpaCy(2/5), PyTorch (3/5)\\ 
+					&  Requests (3/5), BeautifulSoup (2/5), Asyncio (3/5), Dash(3/5) \\
+					& STL (3/5), PyQt (1/5), ReactJS (3/5)\\
 Программы и технологии & LaTeX, Git, Bash, Linux, MS Office, Jupiter, Postgres \\
 Soft Skills & Английский язык уровень Advanced
 \end{tabular}
@@ -119,9 +118,13 @@ Soft Skills & Английский язык уровень Advanced
 \item Реализация игры "крестики нолики" с использованием искусственного интеллекта для противника, основанного на Монте-Карло дереве поиска, которое выбирает наиболее выгодный ход
 \end{rSubsection}
 
-\begin{rSubsection}{$\textcolor{blue}{\href{https://github.com/maximzubkov/Planarity}{\textnormal{Graph Planarity}}}$}{Май 2019 - До сих пор}{}{}
+\begin{rSubsection}{$\textcolor{blue}{\href{https://github.com/maximzubkov/Planarity}{\textnormal{Graph Planarity}}}$}{Май 2019}{}{}
 \item Проверка графа на планарность с использованием Гамма алгоритма
 \item В будущем планируется реализовать рисование графа 
+\end{rSubsection}
+
+\begin{rSubsection}{$\textcolor{blue}{\href{https://github.com/maximzubkov}{\textnormal{DL in NLP}}}$}{Август 2019 - До сих пор}{}{}
+\item Курс от ABBYY, который я проходил летом и прохожу до сих пор 
 \end{rSubsection}
 
 \end{rSection}
@@ -136,16 +139,31 @@ Soft Skills & Английский язык уровень Advanced
 \\ \itab{Теория Графов} \tab{} \tab{Теория Формальных Систем}
 \\ \itab{Высшая Алгебра} \tab{} \tab{Основные Алгоритмы}
 \\ \itab{Мера Лебега} \tab{} \tab{Алгоритмы и Модели Вычисления}
-\\ \itab{Теория Вероятностей} \tab{} \tab{Теория и Реализация Языков Программирования}
+\\ \itab{Теория Вероятностей ($\textcolor{blue}{\href{https://www.coursera.org/account/accomplishments/certificate/HYBDXC4X8WGF}{\textnormal{Coursera}}}$)} \tab{} \tab{Теория и Реализация Языков Программирования}
 \\ \itab{Физика} \tab{} \tab{Язык Python ($\textcolor{blue}{\href{https://www.coursera.org/account/accomplishments/verify/TNSCC4D2WYSX}{\textnormal{Coursera}}}$)}
 \\ \itab{Аналитическая Механика} \tab{} \tab{Многопоточное программирование}
-\\ \itab{Избранные вопросы Алгебры и Теории Чисел}
+\\ \itab{Избранные вопросы Алгебры и Теории Чисел} \tab{} \tab{Проходил курс $\textcolor{blue}{\href{https://dlcourse.ai}{\textnormal{dlcourse.ai}}}$}
+\\ \itab{} \tab{} \tab{Проходил курс $\textcolor{blue}{\href{https://github.com/DanAnastasyev/DeepNLP-Course}{\textnormal{DL in NLP от ABBYY}}}$}
 
 % \\ \itab{Process Control (ongoing)} \tab{} \tab{Electrodynamics}
 
 \end{rSection}
 
+\begin{rSection}{Опыт работы/ участия в соревнованиях}
 
+\begin{rSubsection}{Тинькофф Банк}{Июль 2019 - Август 2019}{}{}
+\item Работал в департаменте рекомендательных систем, в работе использовал как методы классического машинного обучения (деревья бустинга, алгоритмы кластеризации),  так и методы глубокого обучения (Word2Vec, LSTM)
+\end{rSubsection}
+
+\begin{rSubsection}{VK Hack}{Сентябрь 2019}{}{}
+\item На хакатоне предлагалось реализовать приложение VK Mini App для Пушкинского музея с голсовым помошником, возможностью прослушивать аудиугиды и навигацией по залам. К сожалению наш проект не занял призовых мест 
+\end{rSubsection}
+
+\begin{rSubsection}{CET-MIPT Hack}{Сентябрь 2019}{}{}
+\item На хакатоне предлагалось реализовать голсового помошника для Пушкинского музея, к сожалению наш проект не занял призовых мест 
+\end{rSubsection}
+
+\end{rSection}
 
 \end{document}
 
